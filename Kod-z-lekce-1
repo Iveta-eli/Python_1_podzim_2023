@@ -1,0 +1,45 @@
+print("Vitejte v kurzu Pythonu") # řetezec, string, str
+
+nazev_hry = "Romeo a Julie"
+cena_listku = 150
+pocet_listku = 5
+
+celkova_cena = cena_listku * pocet_listku
+
+print(f"Celkova cena je {celkova_cena}")
+
+""" print("Dobrý" + " " + "den")
+pozdrav = 1
+print(f"Pozdrav je {pozdrav}")
+venecky = [1, 2, 1, 2, 6, 3, 2]
+
+#spojovani sekvenci
+print("Pozdrav je " + str(pozdrav)) #retezce
+print(venecky + [0,1,2,3,5,6,4]) #seznam
+print(pozdrav) """
+
+#slicing - souvisí s indexováním v rámci sekvenci
+jmeno = "Janka"
+print(jmeno[0]) 
+print(jmeno[-1]) #poslední prvek
+print(jmeno[-2])
+
+
+venecky = [1, 2, 1, 2, 6, 3, 2]
+
+# od pondělí do pátku 
+# syntax venecky[zacatek:konec+1]
+print(venecky[0:5])
+
+#od úterý do soboty
+print(venecky[1:6])
+
+# od úterý do konce týdne
+print(venecky[1:])
+
+# od začátku do čtvrku
+print(venecky[:4])
+
+jmeno = "Andy Novakova"
+print(jmeno[:4])
+print(jmeno[5:])
