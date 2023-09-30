@@ -1,6 +1,6 @@
 """
 Vyvíjíš software pro obchod s elektronickými součástkami. Firma eviduje informace o počtu součástek na skladě ve slovníku. 
-Klíč slovníku je kód součástky a hodnota klíče je počet součástek na skladě.
+Klíč slovníku je kód součástky a hodnota klíče je počet součástek na skladě.  
 
 Napiš software, který bude využívat prodavač v případě, že do obchodu přijde zákazník.
 1)  Software se nejprve zeptá na kód součástky a poté na množství, které si zákazník chce koupit.
