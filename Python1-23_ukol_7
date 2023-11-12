@@ -1,6 +1,6 @@
 # ukol-07
 
-# A) Pomocí nástroje regex101 vymysli regulární výraz, který označí platná data a neoznačí neplatná data:
+# A) Pomocí nástroje regex101 vymysli regulární výraz, který označí platná data a neoznačí neplatná data: 
 
 # Řešení: ...\D...[1,2]|999
 
